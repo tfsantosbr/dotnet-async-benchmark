@@ -1,0 +1,12 @@
+@hostUrl = http://localhost:5272
+
+GET {{hostUrl}}/products/standard
+Accept: application/json
+
+###
+
+
+GET {{hostUrl}}/products/optimized
+Accept: application/json
+
+###
