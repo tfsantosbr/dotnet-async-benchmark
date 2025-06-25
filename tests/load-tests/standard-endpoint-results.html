@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Standard Endpoint - Load Test Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .metric { margin: 10px 0; padding: 10px; background: #f5f5f5; border-radius: 5px; }
+        .pass { background: #d4edda; }
+        .fail { background: #f8d7da; }
+    </style>
+</head>
+<body>
+    <h1>Standard Endpoint Load Test Results</h1>
+    <div class="metric">
+        <h3>Request Rate</h3>
+        <p>Total Requests: 28026</p>
+        <p>Requests/sec: 66.61</p>
+    </div>
+    <div class="metric">
+        <h3>Response Times</h3>
+        <p>Average: 6.02ms</p>
+        <p>95th percentile: 15.32ms</p>
+        <p>Max: 54.89ms</p>
+    </div>
+    <div class="metric pass">
+        <h3>Error Rate</h3>
+        <p>Failed Requests: 0.00%</p>
+    </div>
+</body>
+</html>

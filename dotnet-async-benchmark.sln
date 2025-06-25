@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTest.Api", "src\AsyncTest.Api\AsyncTest.Api.csproj", "{A5FB06B6-3471-0669-809E-FFBA9B8A276B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTest.Benchmarks", "src\AsyncTest.Benchmarks\AsyncTest.Benchmarks.csproj", "{B7C3F2E4-8D92-4A15-9E3C-F1B8C5A67890}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,12 +18,17 @@ Global
 		{A5FB06B6-3471-0669-809E-FFBA9B8A276B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5FB06B6-3471-0669-809E-FFBA9B8A276B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5FB06B6-3471-0669-809E-FFBA9B8A276B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C3F2E4-8D92-4A15-9E3C-F1B8C5A67890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C3F2E4-8D92-4A15-9E3C-F1B8C5A67890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C3F2E4-8D92-4A15-9E3C-F1B8C5A67890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C3F2E4-8D92-4A15-9E3C-F1B8C5A67890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A5FB06B6-3471-0669-809E-FFBA9B8A276B} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{B7C3F2E4-8D92-4A15-9E3C-F1B8C5A67890} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {542F3035-3E8A-4CE1-93BF-7178C26F1D6F}
